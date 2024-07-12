@@ -63,15 +63,14 @@ namespace TooManySigils
             AddCoinsWithin();
             AddTreasureTracker();
             AddOneFourthChanceInstakill();
-            /*
+            
             AddFishOutOfWater();
             AddClawStrike();
             AddBorrowedTime();
             // Add abilities before cards. Otherwise, the game will try to load cards before the abilities are created.
-            AddTest1();
-            AddTest2();
-            AddTest3();
-            */
+            //AddTest1();
+            //AddTest2();
+            //AddTest3();
         }
 
         // This method passes the ability and the ability information to the API.
@@ -632,6 +631,11 @@ namespace TooManySigils
             // Pass the ability to the API.
             TreasureTracker.ability = treasuretracker.ability;
         }
+
+        // Made a new description, use it if you want:
+        // When [creature] would be struck, instantly kill the striker instead at a 25% chance.
+        // Also came up with some alternate sigil names cause the current one's awkward imo:
+        // Quarter-Chance Instakill, Killing Curse, Boundary of Death (reference to Library of Ruina, look it up)
         private void AddOneFourthChanceInstakill()
         {
             // This builds our ability information.
@@ -655,7 +659,9 @@ namespace TooManySigils
             // Pass the ability to the API.
             One_Fouth_Chance_Instakill.ability = oneFourthChanceInstakill.ability;
         }
-        /*
+
+        // New description candidate:
+        // [creature] will gain the Waterborne sigil. At the start of the owner's turn, this card will switch between Waterborne and Airborne.
         private void AddFishOutOfWater()
         {
             // This builds our ability information.
@@ -679,6 +685,9 @@ namespace TooManySigils
             // Pass the ability to the API.
             FishOutOfWater.ability = fishoutofwater.ability;
         }
+
+        // New desc: 
+        // [creature] will strike each opposing space to the left and right of the space across from it, alternating between dealing 1 additional damage to the left and right spaces.
         private void AddClawStrike()
         {
             // This builds our ability information.
@@ -702,6 +711,8 @@ namespace TooManySigils
             // Pass the ability to the API.
             ClawStrike.ability = clawStrike.ability;
         }
+
+        // New: When [creature] perishes, the creature inside is released in its place. If this card could have grown into a stronger form, that form is released instead.
         private void AddBorrowedTime()
         {
             // This builds our ability information.
@@ -725,7 +736,7 @@ namespace TooManySigils
             // Pass the ability to the API.
             BorrowedTime.ability = borrowedTime.ability;
         }
-        */
+        
         public static Trait BoneslessTrait = GuidManager.GetEnumValue<Trait>(PluginGuid, "Boneless");
 
         public static Trait Child13Trait = GuidManager.GetEnumValue<Trait>(PluginGuid, "Child13");
