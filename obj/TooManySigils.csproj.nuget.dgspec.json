@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "netstandard2.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -28,8 +28,8 @@
           "https://nuget.windows10ce.com/nuget/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
-            "targetAlias": "netstandard2.1",
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -40,8 +40,8 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
-          "targetAlias": "netstandard2.1",
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "BepInEx-MonoMod_Loader_Inscryption": {
               "target": "Package",
@@ -50,24 +50,30 @@
             "BepInEx.Analyzers": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[1.0.8, )"
+              "version": "[1.*, )"
             },
             "BepInEx.Core": {
               "target": "Package",
-              "version": "[5.4.21, )"
+              "version": "[5.4.19, )"
             },
             "BepInEx.PluginInfoProps": {
               "target": "Package",
-              "version": "[2.1.0, )"
+              "version": "[1.*, )"
             },
             "Inscryption.GameLibs": {
               "target": "Package",
               "version": "[1.9.0-r.0, )"
             },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
             "UnityEngine.Modules": {
               "include": "Compile",
               "target": "Package",
-              "version": "[2022.2.20, )"
+              "version": "[2019.4.24, )"
             }
           },
           "imports": [
@@ -81,11 +87,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "NETStandard.Library": {
-              "privateAssets": "all"
-            }
-          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }

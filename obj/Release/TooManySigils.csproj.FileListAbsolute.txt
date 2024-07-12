@@ -1,0 +1,11 @@
+C:\Users\Me\Source\Repos\HumabHatterZed\TooManySigils\bin\Release\TooManySigils.deps.json
+C:\Users\Me\Source\Repos\HumabHatterZed\TooManySigils\bin\Release\TooManySigils.dll
+C:\Users\Me\Source\Repos\HumabHatterZed\TooManySigils\bin\Release\TooManySigils.pdb
+C:\Users\Me\Source\Repos\HumabHatterZed\TooManySigils\obj\Release\TooManySigils.csproj.AssemblyReference.cache
+C:\Users\Me\Source\Repos\HumabHatterZed\TooManySigils\obj\Release\PluginInfo.cs
+C:\Users\Me\Source\Repos\HumabHatterZed\TooManySigils\obj\Release\TooManySigils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Me\Source\Repos\HumabHatterZed\TooManySigils\obj\Release\TooManySigils.AssemblyInfoInputs.cache
+C:\Users\Me\Source\Repos\HumabHatterZed\TooManySigils\obj\Release\TooManySigils.AssemblyInfo.cs
+C:\Users\Me\Source\Repos\HumabHatterZed\TooManySigils\obj\Release\TooManySigils.csproj.CoreCompileInputs.cache
+C:\Users\Me\Source\Repos\HumabHatterZed\TooManySigils\obj\Release\TooManySigils.dll
+C:\Users\Me\Source\Repos\HumabHatterZed\TooManySigils\obj\Release\TooManySigils.pdb

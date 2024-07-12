@@ -1,21 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>TooManySigils</AssemblyName>
     <Description>Sigil libary of new</Description>
     <Version>2.5.0</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>Latest</LangVersion>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="BepInEx-MonoMod_Loader_Inscryption" Version="1.0.0" />
-    <PackageReference Include="BepInEx.Analyzers" Version="1.0.8" PrivateAssets="all" />
-    <PackageReference Include="BepInEx.Core" Version="5.4.21" />
-    <PackageReference Include="BepInEx.PluginInfoProps" Version="2.1.0" />
-    <PackageReference Include="UnityEngine.Modules" Version="2022.2.20" IncludeAssets="compile" />
+    <PackageReference Include="BepInEx.Analyzers" Version="1.*" PrivateAssets="all" />
+    <PackageReference Include="BepInEx.Core" Version="5.4.19" />
+    <PackageReference Include="BepInEx.PluginInfoProps" Version="1.*" />
     <PackageReference Include="Inscryption.GameLibs" Version="1.9.0-r.0" />
+    <PackageReference Include="UnityEngine.Modules" Version="2019.4.24" IncludeAssets="compile" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'">
@@ -23,16 +24,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="ATribalLibary">
+    <Reference Include="ATribalLibary" Private="false">
       <HintPath>lib\ATribalLibary.dll</HintPath>
     </Reference>
-    <Reference Include="InscryptionAPI">
+    <Reference Include="InscryptionAPI" Private="false">
       <HintPath>lib\InscryptionAPI.dll</HintPath>
     </Reference>
-    <Reference Include="InscryptionCommunityPatch">
+    <Reference Include="InscryptionCommunityPatch" Private="false">
       <HintPath>lib\InscryptionCommunityPatch.dll</HintPath>
     </Reference>
-    <Reference Include="Sirenix.Serialization">
+    <Reference Include="Sirenix.Serialization" Private="false">
       <HintPath>lib\Sirenix.Serialization.dll</HintPath>
     </Reference>
   </ItemGroup>
