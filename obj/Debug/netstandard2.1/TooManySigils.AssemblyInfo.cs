@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("TooManySigils")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Sigil libary of new")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("2.5.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.5.0")]

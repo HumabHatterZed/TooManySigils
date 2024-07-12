@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Thinc\\source\\repos\\TooManySigils\\TooManySigils.csproj": {}
+    "C:\\Users\\Me\\Source\\Repos\\HumabHatterZed\\TooManySigils\\TooManySigils.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Thinc\\source\\repos\\TooManySigils\\TooManySigils.csproj": {
+    "C:\\Users\\Me\\Source\\Repos\\HumabHatterZed\\TooManySigils\\TooManySigils.csproj": {
       "version": "2.5.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thinc\\source\\repos\\TooManySigils\\TooManySigils.csproj",
+        "projectUniqueName": "C:\\Users\\Me\\Source\\Repos\\HumabHatterZed\\TooManySigils\\TooManySigils.csproj",
         "projectName": "TooManySigils",
-        "projectPath": "C:\\Users\\Thinc\\source\\repos\\TooManySigils\\TooManySigils.csproj",
-        "packagesPath": "C:\\Users\\Thinc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Thinc\\source\\repos\\TooManySigils\\obj\\",
+        "projectPath": "C:\\Users\\Me\\Source\\Repos\\HumabHatterZed\\TooManySigils\\TooManySigils.csproj",
+        "packagesPath": "C:\\Users\\Me\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Me\\Source\\Repos\\HumabHatterZed\\TooManySigils\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Thinc\\source\\repos\\TooManySigils\\NuGet.Config",
-          "C:\\Users\\Thinc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Me\\Source\\Repos\\HumabHatterZed\\TooManySigils\\NuGet.Config",
+          "C:\\Users\\Me\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,11 +37,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -95,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

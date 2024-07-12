@@ -615,7 +615,7 @@ namespace TooManySigils
             AbilityInfo treasuretracker = AbilityManager.New(
                 PluginGuid,
                 "Treasure Tracker",
-                "At The end of the Owners turn, this card will provide the owner with 1 foil.",
+                "At the end of the owner's turn, [creature] will provide its owner with 1 foil.",
                 typeof(TreasureTracker),
                 "TreasureTracker_A1.png"
             )
